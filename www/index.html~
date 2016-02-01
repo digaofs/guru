@@ -27,7 +27,7 @@
       <!-- <ion-title>Pergunte ao Raul</ion-title> -->
       <ion-content class="ball-center-content padding" scroll="false" ng-controller="PredictionController">
 		<img class="logo" src="img/8Ball.png" alt="" ng-click="ask()">
-		<p class="prediction" ng-class="{'show':answered}">{{prediction}}</p>
+		<p class="prediction" ng-class="{"show":answered}">{{prediction}}</p>
       </ion-content>
     </ion-pane>
   </body>
